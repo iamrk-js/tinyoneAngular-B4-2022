@@ -1,0 +1,34 @@
+.brandLink li {
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+
+ul {
+    padding: 0;
+}
+
+.brandLink li i {
+    font-size: 2.5rem;
+    color: $color-secondary;
+}
+
+.socialIcons li {
+    display: inline-block;
+    margin-right: 1.875rem;
+}
+
+.socialIcons li i {
+    font-size: 2.188rem;
+    color: $color-primary;
+}
+
+
+.footerLink li,
+.footerLink li a {
+    color: #fff;
+    font-size: 16px;
+}
+
+.firstCap li a {
+    text-transform: capitalize;
+}

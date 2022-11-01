@@ -1,0 +1,21 @@
+@import '../../../../assets/sass/abstract/variables';
+
+.heroImg {
+    padding: 5.625rem 0;
+    background-color: $color-primary;
+}
+
+.logo {
+   
+    display: inline-block;
+}
+
+.brandLink li {
+    display: inline-block;
+    margin-right: 2.5rem;
+}
+
+.brandLink li i {
+    font-size: 2.5rem;
+    color: $color-secondary;
+}

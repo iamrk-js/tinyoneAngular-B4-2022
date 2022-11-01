@@ -1,0 +1,28 @@
+.pri-heading {
+    font-size: 2rem;
+    color: $color-secondary;
+    margin-bottom: 1.375rem;
+   
+}
+
+.sec-heading {
+    color: $color-text-pri;
+    font-size: 1.25rem;
+    margin-bottom: 1.375rem;
+    font-weight: 400;
+   
+}
+
+.para {
+    color: $color-text-sec;
+    font-size: $base-font-size;
+    margin-bottom: 2.5rem;
+}
+
+.footer .pri-heading{
+    color: $color-primary;
+}
+
+.footer .sec-heading{
+    color: $color-text-tri;
+}

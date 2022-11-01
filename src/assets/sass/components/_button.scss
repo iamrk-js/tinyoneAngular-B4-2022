@@ -1,0 +1,21 @@
+
+.btn-primary {
+    height: 3.125rem;
+    background-color: $color-primary;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: $color-secondary;
+    font-size: 1rem;
+    font-weight: bold;
+    border: 1px solid $color-primary;
+    padding: 0 20px;
+    transition: all .3s ease-in-out;
+    &:hover,
+    &:focus,
+    &:active{
+        background-color: $color-secondary;
+        color: $color-primary;
+        border: 1px solid $color-primary;
+    }
+}

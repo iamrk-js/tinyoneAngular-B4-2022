@@ -1,0 +1,8 @@
+<!-- <ul class="brandIcons"> -->
+<ul [attr.class]="ulClassName" class="p-0">
+    <li *ngFor="let obj of iconsArray">
+        <a [href]="obj.hrefLink" [innerHTML]="obj.icon" target="_blank">
+
+        </a>
+    </li>
+</ul>

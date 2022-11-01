@@ -1,0 +1,10 @@
+
+.heroImg .nav-item:not(:last-child){
+    margin-right: 60px;
+}
+.heroImg .nav-link{
+    font-weight: bold;
+    font-size: $base-font-size ;
+    color: $color-secondary !important;
+    text-transform: capitalize;
+}
